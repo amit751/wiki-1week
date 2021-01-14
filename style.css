@@ -12,11 +12,11 @@ h1{
 }
 
 a{
-    background-color: #8d10d4d7;
-    color: rgb(36, 29, 29);
-    font-size: larger;
-    font-weight: bolder;
+    background-color: #09070ad7;
+    color: white;
+    font-size: 1.em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
 }
 
 img{
@@ -44,6 +44,42 @@ body{
     align-items:center ;
 }
 
+.aside{
 
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items:center ;
+}
+
+ul{
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items:center ;
+}
+
+.tabel{
+    background-color: whitesmoke;
+    margin: auto;
+    border: slateblue ;
+    border-width: 5px;
+    padding: 1px;
+    border-style: groove;
+}
+
+li{
+    margin-top: 20px;
+    border: solid red;
+    background-color: #070000;
+    color: black;
+}
+.video-p{
+    display: flex;
+    align-items:center ;
+
+}
 
 
