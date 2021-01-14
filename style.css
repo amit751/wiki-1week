@@ -7,6 +7,7 @@ h1{
     font-family: sans-serif;
     display: inline;
     width:300px;
+    background: repeating-linear-gradient( 45deg ,#d72631 0px,#a2d5c6 40px,#077B8A 40px,#5C3C92 80px);
     
 }
 
@@ -97,13 +98,13 @@ li{
     background-color: #070000;
     color: black;
 }
-/* #video{
+#video{
     /* display: flex;
     align-items:center ; */
     display: block;
     margin:auto;
 
-} */
+} 
 .form.container{
     margin: auto;
 }
@@ -118,28 +119,52 @@ li{
         align-items: flex-start;
         
 }
+:root {
+    --fcolor: repeating-linear-gradient( 45deg ,#d72631 0px,#a2d5c6 40px,#077B8A 40px,#5C3C92 80px);
+    --scolor: repeating-linear-gradient( 45deg ,#CF1578 0px,#E8D21D 40px,#039FBE 40px,#B20238 80px);
+    --thcolor: repeating-linear-gradient( 45deg ,#d902ee 0px,#ffd79d 40px,#f162ff 40px,#320d3e 80px);
+  }
 
- #logo{
+#logo{
+    
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transform: skewx(-10deg);
     position: relative;
     position: fixed;
     left: 20px;
     top: 10px;
     width: 80px;
     height: 70px;
-    background: repeating-linear-gradient(
+    animation-name: color-logo;
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+
+    /* background: repeating-linear-gradient(
       45deg,
       #d72631 0px,
       #a2d5c6 40px,
       #077B8A 40px,
       #5C3C92 80px
-    );
-    transform: skewx(-10deg);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    ); */
+    
+        
      
 
 }
+@keyframes color-logo {
+    0% {
+      background:var(--fcolor);
+    }
+    50% {
+      background:var(--scolor);
+    }
+    100%{
+      background:var(--thcolor);
+    }
+  }
 #p-logo{
-    color: rgb(255, 255, 255);
+    color: #080808;
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     left: 40px;
@@ -185,7 +210,7 @@ li{
     z-index: 5;
 
 
-} */ *
+} */ 
 /* color: #09A7A1;
 }
 button {
@@ -232,3 +257,8 @@ background-color: hsl(180, 80%, 25%) */
 
 </style>
 <div id="rect"></div> */
+/* repeating-linear-gradient( 45deg ,#CF1578 0px,#E8D21D 40px,#039FBE 40px,#B20238 80px);
+
+
+repeating-linear-gradient( 45deg ,#d902ee 0px,#ffd79d 40px,#f162ff 40px,#320d3e 80px); */
+
