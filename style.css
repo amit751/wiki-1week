@@ -1,10 +1,15 @@
 h1{
-    background-color: hsl(24, 100%, 50%);
-    color: white;
+    background-color: white;
+    color:  #09A7A1;
     font-size: 2em;
-    border-left: solid hsl(138, 88%, 54%);
+    border-left: solid hsl(202, 85%, 3%);
+    border-width: 4px;
     font-family: sans-serif;
+    display: inline;
+    width:300px;
+    
 }
+
 .navbar{
     position: fixed;
     top:20px;
@@ -18,8 +23,13 @@ a{
     font-weight:bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 30px;
-}
 
+}
+a:hover {
+    color:rgb(30, 238, 93);
+    transform: scale(3.1);
+
+  }
 img{
     width: 15vw;
 }
@@ -27,14 +37,24 @@ img{
 body{
     font-size: 1.em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(83, 91%, 65%);
+    /* background-color: hsl(175, 61%, 85%); */
+    /* background: linear-gradient(90deg, #CCFFFF, #FFCCCC); */
+    /* background: linear-gradient(20deg,#CF1578, #E8D21D, #039FBE,#B20238); */
+    background-color: #F5F0C1;
+    /* background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png"); */
 }
 
 .warp-contant{
     margin-left: 10%;
     margin-right: 10%;
-    background-color: hsl(189, 40%, 87%);
-    border-right: black solid;
+    /* background: linear-gradient(35deg, red, yellow, rgb(204, 204, 255)); */
+    border-right:   linear-gradient(95deg, red, yellow, #09A7A1);
+    border-width: 30px;
+    /* background: linear-gradient(35deg, #CCFFFF, #FFCCCC); */
+    height:100vw;
+    /* background-color: white;
+    background: linear-gradient(95deg, red, yellow, #09A7A1); */
+    /* background: linear-gradient(90deg, #CCFFFF, #FFCCCC); */
    
 }
 .img-container{
@@ -99,3 +119,116 @@ li{
         
 }
 
+ #logo{
+    position: relative;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    width: 80px;
+    height: 70px;
+    background: repeating-linear-gradient(
+      45deg,
+      #d72631 0px,
+      #a2d5c6 40px,
+      #077B8A 40px,
+      #5C3C92 80px
+    );
+    transform: skewx(-10deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     
+
+}
+#p-logo{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 40px;
+    top: 20px;
+    position: fixed;
+    font-size: 1.8em;
+}
+/* #t1{
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 50px;
+    z-index: 2;
+
+
+}
+#t2{
+    background-color: rgb(43, 184, 50);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    z-index: 3;
+
+
+}
+#t3{
+    background-color: rgb(216, 18, 150);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    z-index: 4;
+
+}
+#t4{
+    background-color: rgb(156, 13, 13);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    z-index: 5;
+
+
+} */ *
+/* color: #09A7A1;
+}
+button {
+  background-color: #FF790E;
+   */
+   /* background-color: hsl(180, 90%, 35%);
+   color: #FFFFFF;
+ }
+
+ nav {
+background-color: hsl(180, 80%, 25%) */
+
+
+
+
+/* <style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name:rainbow;
+    animation-duration: 4s
+
+
+  }
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  100%{
+    background-color:yellow;
+  }
+}
+
+
+
+</style>
+<div id="rect"></div> */
