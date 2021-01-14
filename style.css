@@ -1,13 +1,9 @@
 h1{
     background-color: white;
     color:  #09A7A1;
-    font-size: 2em;
     border-left: solid hsl(202, 85%, 3%);
     border-width: 4px;
-    font-family: sans-serif;
-    display: inline;
-    width:300px;
-    background: repeating-linear-gradient( 45deg ,#d72631 0px,#a2d5c6 40px,#077B8A 40px,#5C3C92 80px);
+    font-size: 80px;    
     
 }
 
@@ -36,26 +32,25 @@ img{
 }
 
 body{
-    font-size: 1.em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color: hsl(175, 61%, 85%); */
-    /* background: linear-gradient(90deg, #CCFFFF, #FFCCCC); */
-    /* background: linear-gradient(20deg,#CF1578, #E8D21D, #039FBE,#B20238); */
-    background-color: #F5F0C1;
-    /* background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png"); */
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffd79d;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+   
 }
 
 .warp-contant{
-    margin-left: 10%;
-    margin-right: 10%;
-    /* background: linear-gradient(35deg, red, yellow, rgb(204, 204, 255)); */
+    margin-left: 20%;
+    margin-right:20%;
+   
     border-right:   linear-gradient(95deg, red, yellow, #09A7A1);
     border-width: 30px;
-    /* background: linear-gradient(35deg, #CCFFFF, #FFCCCC); */
+    background-color:#077B8A ;
+  
     height:100vw;
-    /* background-color: white;
-    background: linear-gradient(95deg, red, yellow, #09A7A1); */
-    /* background: linear-gradient(90deg, #CCFFFF, #FFCCCC); */
+
    
 }
 .img-container{
@@ -84,46 +79,34 @@ ul{
 }
 
 .tabel{
-    background-color: whitesmoke;
+    background-color: rgb(14, 184, 57);
     margin: auto;
-    border: slateblue ;
+    border: rgb(24, 118, 226) ;
     border-width: 5px;
     padding: 1px;
-    border-style: groove;
+    border-style: double;
 }
 
 li{
     margin-top: 20px;
-    border: solid red;
+    border: solid rgb(197, 218, 139);
     background-color: #070000;
     color: black;
 }
 #video{
-    /* display: flex;
-    align-items:center ; */
     display: block;
     margin:auto;
-
 } 
 .form.container{
     margin: auto;
 }
 
-.video-p{
-   
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-content: stretch;
-        align-items: flex-start;
-        
-}
+
 :root {
     --fcolor: repeating-linear-gradient( 45deg ,#d72631 0px,#a2d5c6 40px,#077B8A 40px,#5C3C92 80px);
     --scolor: repeating-linear-gradient( 45deg ,#CF1578 0px,#E8D21D 40px,#039FBE 40px,#B20238 80px);
     --thcolor: repeating-linear-gradient( 45deg ,#d902ee 0px,#ffd79d 40px,#f162ff 40px,#320d3e 80px);
-  }
+}
 
 #logo{
     
@@ -139,18 +122,6 @@ li{
     animation-name: color-logo;
     animation-iteration-count:infinite;
     animation-duration: 3s;
-
-    /* background: repeating-linear-gradient(
-      45deg,
-      #d72631 0px,
-      #a2d5c6 40px,
-      #077B8A 40px,
-      #5C3C92 80px
-    ); */
-    
-        
-     
-
 }
 @keyframes color-logo {
     0% {
@@ -172,93 +143,15 @@ li{
     position: fixed;
     font-size: 1.8em;
 }
-/* #t1{
-    background-color: black;
-    position: absolute;
-    top: 2px;
-    left: 1px;
-    width: 50px;
-    z-index: 2;
-
+#img-p1{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+#contact-me{
+    
+    text-align: center;
+    font-weight: bold;
+    color: red;
 
 }
-#t2{
-    background-color: rgb(43, 184, 50);
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    z-index: 3;
-
-
-}
-#t3{
-    background-color: rgb(216, 18, 150);
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 50px;
-    z-index: 4;
-
-}
-#t4{
-    background-color: rgb(156, 13, 13);
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 50px;
-    z-index: 5;
-
-
-} */ 
-/* color: #09A7A1;
-}
-button {
-  background-color: #FF790E;
-   */
-   /* background-color: hsl(180, 90%, 35%);
-   color: #FFFFFF;
- }
-
- nav {
-background-color: hsl(180, 80%, 25%) */
-
-
-
-
-/* <style>
-  div {
-    height: 40px;
-    width: 70%;
-    background: black;
-    margin: 50px auto;
-    border-radius: 5px;
-  }
-
-  #rect {
-    animation-name:rainbow;
-    animation-duration: 4s
-
-
-  }
-@keyframes rainbow {
-  0% {
-    background-color: blue;
-  }
-  50% {
-    background-color: green;
-  }
-  100%{
-    background-color:yellow;
-  }
-}
-
-
-
-</style>
-<div id="rect"></div> */
-/* repeating-linear-gradient( 45deg ,#CF1578 0px,#E8D21D 40px,#039FBE 40px,#B20238 80px);
-
-
-repeating-linear-gradient( 45deg ,#d902ee 0px,#ffd79d 40px,#f162ff 40px,#320d3e 80px); */
-
