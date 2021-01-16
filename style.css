@@ -1,9 +1,11 @@
 h1{
-    background-color: white;
+    background-color:hsl(226, 80%, 61%);
     color:  #09A7A1;
     border-left: solid hsl(202, 85%, 3%);
     border-width: 4px;
-    font-size: 80px;    
+    font-size: 80px;  
+    color: hsl(0, 75%, 2%); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     
 }
 
@@ -37,7 +39,8 @@ body{
     background-color: #ffd79d;
     font-size: 20px;
     font-weight: normal;
-    color: white;
+    color:white;
+    background-color: darkred;
    
 }
 
@@ -47,9 +50,10 @@ body{
    
     border-right:   linear-gradient(95deg, red, yellow, #09A7A1);
     border-width: 30px;
-    background-color:#077B8A ;
+    background-color:#0a0d0e ;
   
     height:100vw;
+    overflow: scroll;
 
    
 }
@@ -135,7 +139,7 @@ li{
     }
   }
 #p-logo{
-    color: #080808;
+    color: rgb(3, 0, 0);
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     left: 40px;
@@ -152,6 +156,11 @@ li{
     
     text-align: center;
     font-weight: bold;
-    color: red;
+    color: hsl(226, 80%, 61%);
 
 }
+@media  screen and (max-width: 600px){
+    h1{
+      color: #f7f3f3;
+         }
+       }
