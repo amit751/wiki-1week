@@ -21,16 +21,18 @@ a{
     font-size: 1.em;
     font-weight:bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px;
+    margin: 10px;
 
 }
 a:hover {
-    color:rgb(30, 238, 93);
+    color:rgb(186, 63, 202);
     transform: scale(3.1);
 
   }
-img{
+.img-3{
     width: 15vw;
+    border: solid rgb(119, 250, 239) ;
+    padding: 10px;
 }
 
 body{
@@ -83,12 +85,13 @@ ul{
 }
 
 .tabel{
-    background-color: rgb(14, 184, 57);
+    background-color:rgb(122, 218, 122);
     margin: auto;
     border: rgb(24, 118, 226) ;
     border-width: 5px;
     padding: 1px;
     border-style: double;
+    
 }
 
 li{
@@ -163,4 +166,49 @@ li{
     h1{
       color: #f7f3f3;
          }
-       }
+}
+#author{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    bottom: 20px;
+    position: fixed;
+    font-size: 1.em;
+    right: 180px;
+}
+.buy-conainer{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items:center ;
+
+}
+.store{
+    text-align: center;
+    border: #f8f4f4 solid;
+    padding: 10px;
+    background-color: grey;
+    width: 300px;
+}
+button {
+    background-color: #e6d931; /* Green */
+    border: none;
+    color: rgb(3, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+#survey-form{
+    text-align: center;
+
+}
+table a{
+background-color: rgb(140, 218, 140);
+font-weight: lighter;
+}
+
+
+
+     
